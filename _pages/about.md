@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Zhiyuan Liu | Home"
 author_profile: true
 redirect_from: 
   - /about/
