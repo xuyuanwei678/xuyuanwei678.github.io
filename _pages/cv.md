@@ -59,3 +59,25 @@ Academic Services
 * Area Chair: ACL 2021 2018 2017, EMNLP 2021 2020 2019, WWW 2021, IJCAI 2021, COLING 2020 2018, AACL 2020, IJCNLP 2017, NLPCC 2020.
 * Senior PC: IJCAI 2022.
 * Others: IJCAI 2021 (Reproducibility), ACL 2020 (Publicity), CIKM 2019 (Publicity).
+
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
+Teaching
+======
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Service and leadership
+======
+* Currently signed in to 43 different slack teams
