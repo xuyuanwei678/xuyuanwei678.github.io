@@ -210,6 +210,7 @@ collections:
   students:
     output: true
     permalink: /:collection/:path/
+    url:`#student`
   talks:
     output: true
     permalink: /:collection/:path/
