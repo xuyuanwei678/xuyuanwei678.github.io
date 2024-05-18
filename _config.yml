@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Zhiyuan Liu"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Zhiyuan Liu"
 description              : &description "personal description"
 url                      : http://xyw.blackjoken.top/
 #url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
