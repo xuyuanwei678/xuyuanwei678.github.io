@@ -16,7 +16,7 @@ main:
   #   url: /year-archive/
     
   - title: "Bio"
-    url: /bio/
+    url: "#bio"
     
   # - title: "Guide"
   #   url: /markdown/
