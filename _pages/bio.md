@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "bio"
+title: "Bio"
 permalink: /bio/
 author_profile: true
 redirect_from:
