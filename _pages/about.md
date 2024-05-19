@@ -64,6 +64,7 @@ Undergraduates
 
 <h1 id="bio">Bio</h1>
 <br />
+
 Education
 ======
 * Aug, 2006 - 2011. Ph.D, Dept. of Computer Science and Technology, Tsinghua University, Beijing.
