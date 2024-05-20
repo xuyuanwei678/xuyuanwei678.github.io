@@ -1,3 +1,11 @@
+---
+layout: archive
+title: "recruitment"
+permalink: /recruitment/
+author_profile: true
+redirect_from:
+  - /recruitment
+---
 # PhD Students
 I am looking for highly-motivated students to work with me on the area of representation learning, knowledge graphs and their applications. I will be able to take on **1** PhD student admitted in 2017 (i.e., applying this fall).
 
