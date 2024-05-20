@@ -9,7 +9,6 @@ redirect_from:
 
 <h1>{% t about_title %}</h1>
 {% t abount_content %}
-I am now working as associate professor of [NLP Lab](https://nlp.csai.tsinghua.edu.cn/), Department of Computer Science and Technology in Tsinghua University, Beijing, China. My major research interests are in Natural Language Processing, knowledge graph and social computing. I am always looking for highly-motivated post-docs and visiting scholars to work together on natural language processing, knowledge graphs, and social computing. Please read the [instructions](/recruitment) and email me with your CV.
 
 <h1 id="publications">Publications</h1>
 {% if site.author.googlescholar %}
@@ -17,12 +16,12 @@ I am now working as associate professor of [NLP Lab](https://nlp.csai.tsinghua.e
 {% endif %}
 
 <br/>
-<h1 id="students">Students</h1>
+<h1 id="students">{% t student_title %}</h1>
 
 
 Graduates
 ======
-* Cunchao Tu (2013-2018): PhD Co-supervised with Prof. Maosong Sun. Social Computation and Network Embedding. Tsinghua Outstanding PhD Thesis, Tsinghua and Beijing Outstanding Graduate. -> THU Postdoc Fellow. -> Co-Founder of Power Law Inc.
+* {% t tucunchao %}
 * Ayana (2013-2019): PhD Co-supervised with Prof. Maosong Sun. Document Summarization. -> Faculty at Inner Mongolia University of Finance and Economics.
 * Cheng Yang (2014-2019): PhD Collaborated on network embedding. Network Embedding and Its Applications. CIPS Outstanding PhD Thesis. -> Faculty at BUPT.
 * Yankai Lin (2014-2019): PhD Co-supervised with Prof. Maosong Sun. Knowledge Graphs. Beijing Outstanding Graduate. -> Tencent Wechat.
