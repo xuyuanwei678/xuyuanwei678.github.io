@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 <h1>{% t about_title %}</h1>
+{% t abount_content %}
 I am now working as associate professor of [NLP Lab](https://nlp.csai.tsinghua.edu.cn/), Department of Computer Science and Technology in Tsinghua University, Beijing, China. My major research interests are in Natural Language Processing, knowledge graph and social computing. I am always looking for highly-motivated post-docs and visiting scholars to work together on natural language processing, knowledge graphs, and social computing. Please read the [instructions](/recruitment) and email me with your CV.
 
 <h1 id="publications">Publications</h1>
