@@ -1,1 +1,1 @@
-Sitemap: http://xyw.blackjoken.top//zh/sitemap.xml
+Sitemap: http://localhost:4000/zh/sitemap.xml
