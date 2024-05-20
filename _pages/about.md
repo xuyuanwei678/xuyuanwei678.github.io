@@ -22,27 +22,28 @@ redirect_from:
 Graduates
 ======
 * {% t tucunchao %}
-* Ayana (2013-2019): PhD Co-supervised with Prof. Maosong Sun. Document Summarization. -> Faculty at Inner Mongolia University of Finance and Economics.
-* Cheng Yang (2014-2019): PhD Collaborated on network embedding. Network Embedding and Its Applications. CIPS Outstanding PhD Thesis. -> Faculty at BUPT.
-* Yankai Lin (2014-2019): PhD Co-supervised with Prof. Maosong Sun. Knowledge Graphs. Beijing Outstanding Graduate. -> Tencent Wechat.
-* Ruobing Xie (2014-2017): Master Co-supervised with Prof. Maosong Sun. Knowledge Representation Learning. Tsinghua Outstanding Master Thesis, Tsinghua and Beijing Outstanding Graduate. -> Tencent Wechat.
-* Xu Han (2017-2022): PhD. Neural Knowledge Acquisition. -> Postdoc at Tsinghua.
-* Yuan Yao (2018-): PhD. Cross-Modal Information Extraction.
-* Haoxi Zhong (2018-2021): Master. Legal NLP. Tsinghua Outstanding Master Thesis and Outstanding Graduate. -> Tencent.
-* Jie Zhou (2018-2021): Master. Graph Neural Networks. Beijing Outstanding Graduate. -> Startup.
-* Kaitao Zhang (2018-2021): Master. Neural IR.
-* Zhengyan Zhang (2019-): PhD. Fast Big Models.
-* Ganqu Cui (2019-): Master. Safe Big Models.
-* Chaojun Xiao (2020-): PhD. Long Document Modeling.
-* Zheni Zeng (2020-): PhD. Bio NLP.
-* Yujia Qin (2020-): PhD. Big Models.
-* Jing Yi (2020-): Master. Big Models.
-* Fengyu Wang (2020-): Master. Text Generation.
-* Shengding Hu (2020-): Master. Delta Tuning.
-* Weize Chen (2021-): PhD. Big Model Theory.
-* Shi Yu (2021-): PhD. Neural IR.
-* Yuzhong Wang (2021-): Master. Legal NLP.
-* Chaoqun He (2021-): Master. Text Generation.
+* {% t ayana %}
+* {% t yangcheng %}
+* {% t linyankai %}
+* {% t xieruobing %}
+* {% t hanxu %}
+* {% t yaoyuan %}
+* {% t zhonghaoxi %}
+* {% t zhoujie %}
+* {% t zhangkaitao %}
+* {% t zhangzhengy %}
+* {% t cuiganqu %}
+* {% t xiaochaojun %}
+* {% t zengzheni %}
+* {% t qinyujia %}
+* {% t yijing %}
+* {% t wangfengyu %}
+* {% t hushengding %}
+* {% t chenweize %}
+* {% t yushi %}
+* {% t wangyuzhong %}
+* {% t hechaoqun %}
+
 
 Undergraduates
 ======
