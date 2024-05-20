@@ -10,6 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Setup Git
+    run: |
+      git config --global user.name 'xuyuanwei'
+      git config --global user.email '1148090955@qq.com'
     - uses: actions/checkout@v2
 
     - name: Setup Ruby
