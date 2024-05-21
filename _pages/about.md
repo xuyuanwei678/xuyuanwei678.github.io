@@ -68,7 +68,7 @@ Undergraduates
 
 {% if page.lang == "en" %}
 **English**
-{% elseif pange.lang == "cn" %}
+{% else %}
 **中文**
 {% endif %}
 
