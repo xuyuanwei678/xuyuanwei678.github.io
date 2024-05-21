@@ -87,10 +87,10 @@ Awards
 ======
 
 {% for sv in site.data.test.academic_services %}
-  {% if sv.sv_key != null %}
-    {% t sv.sv_key %}
-  {% endif %}
-{% endfor%}
+{% if sv.sv_key != null %}
+{% t sv.sv_key %}
+{% endif %}
+{% endfor %}
 Academic Services
 ======
 * Senior Action Editor: ACL ARR (2022-).
