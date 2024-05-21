@@ -66,6 +66,11 @@ Undergraduates
 <br />
 <h1 id="bio">Bio</h1>
 
+{% if page.lang == "en" %}
+**English**
+{% elseif pange.lang == "cn" %}
+**中文**
+{% endif %}
 
 Education
 ======
