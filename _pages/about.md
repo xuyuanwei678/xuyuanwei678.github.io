@@ -66,13 +66,13 @@ Undergraduates
 <br />
 <h1 id="bio">Bio</h1>
 
-{% if page.languages == "en" %}
+{% if site.page.languages == "en" %}
 **English**
 {% else %}
 **中文**
 {% endif %}
 
-{% page.languages %}
+{% site.page.languages %}
 
 
 Education
