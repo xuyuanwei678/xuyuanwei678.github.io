@@ -72,6 +72,9 @@ Undergraduates
 **中文**
 {% endif %}
 
+{% page.title %}
+
+
 Education
 ======
 * Aug, 2006 - 2011. Ph.D, Dept. of Computer Science and Technology, Tsinghua University, Beijing.
