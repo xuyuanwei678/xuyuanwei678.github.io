@@ -30,11 +30,12 @@ wangyuzhong: "王聿中 (2021-): 硕士生."
 hechaoqun: "贺超群 (2021-): 硕士生."
 
 undergraduate_title: "本科生"
-
+title_1: "测试 titleKey1"
+title_2: "测试 titleKey2"
+title_3: "测试 titleKey3"
 
 award_title: "获得奖励"
 ---
 awards:
   - 1
   - 3
----
