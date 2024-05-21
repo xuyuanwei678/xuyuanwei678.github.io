@@ -85,7 +85,7 @@ Research Fundings
 
 Awards
 ======
-{% for ad in awards %}
+{% for ad in site.i18n.awards %}
   {% t ad %}
 {% endfor%}
 
