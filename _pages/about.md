@@ -87,8 +87,8 @@ Awards
 ======
 
 {% for sv in site.data.test.academic_services %}
-{% if sv.sv_key != null %}
-{% t sv.sv_key %}
+{% if sv.sv_key != "" %}
+* {% t sv.sv_key %}
 {% endif %}
 {% endfor %}
 Academic Services
