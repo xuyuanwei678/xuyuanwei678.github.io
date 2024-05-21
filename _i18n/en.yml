@@ -51,14 +51,6 @@ title_2: "test titleKey2"
 title_3: "test titleKey3"
 
 award_title: "Awards"
----
-awards:
-  - 1
-  - 2
-  - 3
----
-
-
 academic_title: "Academic Services"
 service_7: "Senior Action Editor: ACL ARR (2022-)."
 service_6: "Action Editor: TACL (2021-), ACL ARR (2021-2022)."
