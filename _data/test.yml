@@ -12,10 +12,10 @@ academic_services:
   - sv_key: "service_6"
   - sv_key: "service_7"
 
-  entry_en:
-    - title: "entry 1"
-    - title: "entry 2"
+entry_en:
+  - title: "entry 1"
+  - title: "entry 2"
   
-  entry_cn:
-    - title: "条目 1"
-    - title: "条目 2"
+entry_cn:
+  - title: "条目 1"
+  - title: "条目 2"
