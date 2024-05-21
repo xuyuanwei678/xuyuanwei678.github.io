@@ -2,3 +2,12 @@ main:
   - titleKey: "title_1"
   - titleKey: "title_2"
   - titleKey: "title_3"
+
+academic_services:
+  - sv_key: "service_1"
+  - sv_key: "service_2"
+  - sv_key: "service_3"
+  - sv_key: "service_4"
+  - sv_key: "service_5"
+  - sv_key: "service_6"
+  - sv_key: "service_7"

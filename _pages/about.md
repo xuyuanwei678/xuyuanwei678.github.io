@@ -85,11 +85,11 @@ Research Fundings
 
 Awards
 ======
-{% for ad in site.i18n.awards %}
-  {% t ad %}
-{% endfor%}
-{% for link in site.data.test.main %}
-{% t link.titleKey %}
+
+{% for sv in site.data.test.academic_services %}
+  {% if sv.sv_key %}
+    {% t sv.sv_key %}
+  {% endif %}
 {% endfor%}
 Academic Services
 ======
