@@ -13,7 +13,7 @@ lang: 'zh'
 
 <h1 id="publications">论文发表</h1>
 {% if site.author.googlescholar %}
-  <div class="wordwrap">完整论文列表详见我的<a href="{{site.author.googlescholar}}" style="text-decoration: none;">谷歌学术资料</a>.</div>
+  <div class="wordwrap">完整论文列表详见我的<a href="{{site.author.googlescholar}}">谷歌学术资料</a>。</div>
 {% endif %}
 
 <br/>
@@ -21,7 +21,7 @@ lang: 'zh'
 
 研究生
 ======
-* 涂存超 (2013-2018): 与孙茂松教授共同指导, 博士生. 社会计算与网络表示. 获清华大学优秀博士毕业生、优秀博士论* 文、北京市优秀毕业生. 毕业留清华大学博士后，后联合创始幂律智能初创企业. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2018_cunchao.pdf)
+* 涂存超 (2013-2018): 与孙茂松教授共同指导, 博士生. 社会计算与网络表示. 获清华大学优秀博士毕业生、优秀博士论文、北京市优秀毕业生. 毕业留清华大学博士后，后联合创始幂律智能初创企业. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2018_cunchao.pdf)
 * 阿雅娜 (2013-2019): 与孙茂松教授共同指导, 博士生. 文档摘要. 毕业赴内蒙古财经大学任教. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_ayana.pdf)
 * 林衍凯 (2014-2019): 与孙茂松教授共同指导, 博士生. 知识图谱表示、构建与应用. 获清华大学学术新秀、北京市优秀毕业生、百度学者. 毕业赴腾讯微信AI部门工作. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_linyankai.pdf)
 * 杨成 (2014-2019): 博士生, 合作网络表示学习研究. 网络表示学习及其应用. 毕业赴北京邮电大学任教. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_yangcheng.pdf)
@@ -46,8 +46,16 @@ lang: 'zh'
 
 本科生
 ======
-* 2016级: 常亮 (BUPT->), 高天宇 (THU->), 胡声鼎 (THU->THU Master), 黄俊杰 (Beihang->), 计昊哲 (THU->THU * PhD), 欧阳思聪 (BUPT->), 秦禹嘉 (THU->), 王晓智 (THU->THU PhD), 吴睿东 (THU->), 肖朝军 (THU->THU PhD), * 曾国洋 (THU->THU), 张觉晓 (THU->).
-* 2015级: 李想 (THU->), 顾逸宏 (THU->Hongkong), 刘致远 (XJTU->NUS), 龙上邦 (PKU->CMU Master), 乔逸凡 * (THU->), 宋长河 (THU->THU Master), 闫俊 (THU->USC PhD), 杨承昊 (Beihang->), 于鹏飞(THU->UIUC PhD), 于志竟成 (THU->NUS PhD), 张钰晖 (THU->), 张正彦 (THU->THU PhD), 朱昊 (THU->),
+* 2020级
+  * 钱  成 (THU -> UIUC)，主要研究方向为工具学习。
+  * 田润初 (THU -> UIUC)，主要研究方向为工具学习。
+
+* 2018级
+  * 肖光晅 (THU -> MIT)，主要研究方向为图嵌入、预训练语言模型。曾获清华大学一二 九奖学金，清华大学优秀共青团员等荣誉，清华大学学生“未来学者”计划成员。
+  * 臧  原 (THU -> )，2018年9月起在清华大学自然语言处理实验室刘知远老师组从事对抗学习、语义计算相关的学术研究，2021年12月起在清华大学网研院李琦老师组从事小样本学习、欺诈检测相关的学术研究。在ACL,COLING等国际顶级会议以第一作者/共同第一作者发表两篇论文，同时有一篇第一作者论文在投，google scholar引用180。入选清华大学“科技创新 星火燎原”人才培养计划和清华大学学生“未来学者”计划，获得20万元研究经费支持。
+
+* 2016级: 常亮 (BUPT->), 高天宇 (THU->), 胡声鼎 (THU->THU Master), 黄俊杰 (Beihang->), 计昊哲 (THU->THU * PhD), 欧阳思聪 (BUPT->), 秦禹嘉 (THU->THU PhD), 王晓智 (THU->THU PhD), 吴睿东 (THU->), 肖朝军 (THU->THU PhD), 曾国洋 (THU->THU), 张觉晓 (THU->).
+* 2015级: 李想 (THU->), 顾逸宏 (THU->Hongkong), 刘致远 (XJTU->NUS), 龙上邦 (PKU->CMU Master), 乔逸凡 (THU->), 宋长河 (THU->THU Master), 闫俊 (THU->USC PhD), 杨承昊 (Beihang->), 于鹏飞(THU->UIUC PhD), 于志竟成 (THU->NUS PhD), 张钰晖 (THU->), 张正彦 (THU->THU PhD), 朱昊 (THU->),
 * 2014级: 叶德铭 (THU->THU PhD), 姚远 (THU->THU PhD), 杜家驹 (THU->THU Master), 牛艺霖 (THU->THU PhD), 钟* 皓曦 (THU->THU Master), 王子云 (THU->NYU Master), 辛极 (THU->U Waterloo PhD), 胡紫昆 (THU->NUS PhD), * 唐路明 (THU->Cornell PhD), 袁星驰 (THU->Google).
 * 2013级: 徐磊 (THU->MIT PhD), 韩旭 (THU->THU PhD), 郭志芃 (THU->THU Master), 曾文远 (THU->U Toronto  PhD), 吴佳炜(THU->UCSB PhD), 王豪 (THU->NTU PhD).
 * 2012级: 罗鸿胤 (THU->MIT PhD), 林子钏 (THU->THU Master), 张惟诚 (BUPT->JHU Master), 尹德阳 * (BUPT->Columbia Master).
