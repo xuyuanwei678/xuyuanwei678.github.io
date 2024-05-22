@@ -54,7 +54,7 @@ lang: 'zh'
   * 肖光晅 (THU -> MIT)，主要研究方向为图嵌入、预训练语言模型。曾获清华大学一二 九奖学金，清华大学优秀共青团员等荣誉，清华大学学生“未来学者”计划成员。
   * 臧  原 (THU -> )，2018年9月起在清华大学自然语言处理实验室刘知远老师组从事对抗学习、语义计算相关的学术研究，2021年12月起在清华大学网研院李琦老师组从事小样本学习、欺诈检测相关的学术研究。在ACL,COLING等国际顶级会议以第一作者/共同第一作者发表两篇论文，同时有一篇第一作者论文在投，google scholar引用180。入选清华大学“科技创新 星火燎原”人才培养计划和清华大学学生“未来学者”计划，获得20万元研究经费支持。
 
-* 2019级
+* 2017级
   * 司程磊 ( THU -> Stanford PhD)
   * 曾致远 ( THU -> UW PhD)
   * 姚  峰 ( THU -> UCSD PhD)
@@ -76,12 +76,12 @@ lang: 'zh'
 
 * 2016级: 常亮 (BUPT->), 高天宇 (THU->), 胡声鼎 (THU->THU Master), 黄俊杰 (Beihang->), 计昊哲 (THU->THU PhD), 欧阳思聪 (BUPT->), 秦禹嘉 (THU->THU PhD), 王晓智 (THU->THU PhD), 吴睿东 (THU->), 肖朝军 (THU->THU PhD), 曾国洋 (THU->THU), 张觉晓 (THU->).
 * 2015级: 李想 (THU->), 顾逸宏 (THU->Hongkong), 刘致远 (XJTU->NUS), 龙上邦 (PKU->CMU Master), 乔逸凡 (THU->), 宋长河 (THU->THU Master), 闫俊 (THU->USC PhD), 杨承昊 (Beihang->), 于鹏飞(THU->UIUC PhD), 于志竟成 (THU->NUS PhD), 张钰晖 (THU->), 张正彦 (THU->THU PhD), 朱昊 (THU->),
-* 2014级: 叶德铭 (THU->THU PhD), 姚远 (THU->THU PhD), 杜家驹 (THU->THU Master), 牛艺霖 (THU->THU PhD), 钟* 皓曦 (THU->THU Master), 王子云 (THU->NYU Master), 辛极 (THU->U Waterloo PhD), 胡紫昆 (THU->NUS PhD), * 唐路明 (THU->Cornell PhD), 袁星驰 (THU->Google).
+* 2014级: 叶德铭 (THU->THU PhD), 姚远 (THU->THU PhD), 杜家驹 (THU->THU Master), 牛艺霖 (THU->THU PhD), 钟皓曦 (THU->THU Master), 王子云 (THU->NYU Master), 辛极 (THU->U Waterloo PhD), 胡紫昆 (THU->NUS PhD), 唐路明 (THU->Cornell PhD), 袁星驰 (THU->Google).
 * 2013级: 徐磊 (THU->MIT PhD), 韩旭 (THU->THU PhD), 郭志芃 (THU->THU Master), 曾文远 (THU->U Toronto  PhD), 吴佳炜(THU->UCSB PhD), 王豪 (THU->NTU PhD).
-* 2012级: 罗鸿胤 (THU->MIT PhD), 林子钏 (THU->THU Master), 张惟诚 (BUPT->JHU Master), 尹德阳 * (BUPT->Columbia Master).
-* 2011级: 刘扬 (THU->UIUC PhD), 史天泽 (THU->Cornell PhD), 林颖 (BUPT->RPI PhD), 宫海天 (BUPT->CMU * Master).
+* 2012级: 罗鸿胤 (THU->MIT PhD), 林子钏 (THU->THU Master), 张惟诚 (BUPT->JHU Master), 尹德阳  (BUPT->Columbia Master).
+* 2011级: 刘扬 (THU->UIUC PhD), 史天泽 (THU->Cornell PhD), 林颖 (BUPT->RPI PhD), 宫海天 (BUPT->CMU  Master).
 * 2010级: 王焱 (THU->CMU Master), 林衍凯 (THU->THU PhD).
-* 2009级: 赵晗 (THU->Waterloo Master), 梁晨 (THU->PSU PhD), 李瀚 (THU->WISC PhD), 涂存超 (THU->THU * PhD), 储孝文 (BUPT->CMU Master).
+* 2009级: 赵晗 (THU->Waterloo Master), 梁晨 (THU->PSU PhD), 李瀚 (THU->WISC PhD), 涂存超 (THU->THU  PhD), 储孝文 (BUPT->CMU Master).
 * 2008级: 张思聪 (THU->Georgetown PhD), 何伟鹏 (THU->Hamburg Master).
 * 2007级: 黄文溢 (THU->PSU PhD), 陈新雄 (THU->THU PhD->创业).
 * 2006级: 李逍霄 (BUPT->Alberta Master), 石川 (THU EE->UMN PhD).
