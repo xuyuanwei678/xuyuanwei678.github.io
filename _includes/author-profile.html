@@ -15,7 +15,11 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{% t teacher_name %}</h3>
+    {% if page.lang=='en' %}
+      <h3 class="author__name">Zhiyuan Liu</h3>
+      {% else %}
+      <h3 class="author__name">刘知远</h3>
+    {% endif %}
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
