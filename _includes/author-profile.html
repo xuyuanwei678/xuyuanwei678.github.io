@@ -20,8 +20,15 @@
       {% else %}
       <h3 class="author__name">刘知远</h3>
     {% endif %}
-    {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if page.lang=='en' %}
+    <p class="author__bio">
+      Associate Professor
+    </p>
+    {% else %}
+    <p class="author__bio">
+      副教授
+    </p>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
@@ -29,16 +36,34 @@
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
-        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
+        <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>
+          {% if page.lang=='en' %}
+          Beijing, China
+          {% else %}
+          中国北京
+          {% endif %}
+        </li>
       {% endif %}
       {% if author.employer %}
-        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
+        <li class="author__desktop"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>
+          {% if page.lang=='en' %}
+          Tsinghua University
+          {% else %}
+          清华大学
+          {% endif %}
+        </li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>
+          {% if page.lang=='en' %}
+          Email
+          {% else %}
+          邮箱
+          {% endif %}
+        </a></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
@@ -46,7 +71,13 @@
         <li><a href="{{ author.arxiv }}"><i class="ai ai-arxiv ai-fw icon-pad-right"></i>arXiv</a></li>
       {% endif %}      
       {% if author.googlescholar %}
-        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right"></i>Google Scholar</a></li>
+        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar icon-pad-right"></i>
+          {% if page.lang=='en' %}
+          Google Scholar
+          {% else %}
+          谷歌学者
+          {% endif %}
+        </a></li>
       {% endif %}
       {% if author.semantic %}
         <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
