@@ -15,11 +15,20 @@
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li class="masthead__menu-item masthead__menu-item--en">
-            <a href="{% t language_url %}">
-              {% t language %}
-            </a>
-          </li>
+          {% if page.lang=='en' %}
+            <li class="masthead__menu-item masthead__menu-item--en">
+              <a href="/zh/">
+                中文
+              </a>
+            </li>
+          {% else %}
+            <li class="masthead__menu-item masthead__menu-item--en">
+              <a href="/">
+                English
+              </a>
+            </li>
+          {% endif %}
+          
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

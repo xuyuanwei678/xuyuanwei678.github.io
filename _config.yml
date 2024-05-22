@@ -292,7 +292,6 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-multiple-languages-plugin
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -338,4 +337,4 @@ compress_html:
   ignore:
     envs: development
 default_lang: "en"
-languages: ["en", "zh"]
+languages: ["en"]

@@ -1,10 +1,11 @@
 ---
-permalink: /about
+permalink: /
 title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+lang: 'en'
 ---
 
 <h1>{% t about_title %}</h1>
@@ -18,7 +19,7 @@ redirect_from:
 <br/>
 <h1 id="students">{% t student_title %}</h1>
 
-
+123456
 {% t graduate_title %}
 ======
 * {% t tucunchao %}

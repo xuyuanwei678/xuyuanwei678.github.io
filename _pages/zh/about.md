@@ -1,14 +1,15 @@
 ---
-permalink: /about
+permalink: /zh
 title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+lang: 'zh'
 ---
 
-<h1>{% t about_title %}</h1>
-{% t abount_content %}
+<h1>关于</h1>
+我是清华大学计算机系[自然语言处理实验室](https://nlp.csai.tsinghua.edu.cn/)副教授，主要研究方向为自然语言处理、知识图谱及社会计算。长期招收博士生(每年1个名额)、博士后和访问学生。 请感兴趣的同学阅读相关说明， 请申请者发送邮件联系我并附简历。
 
 <h1 id="publications">Publications</h1>
 {% if site.author.googlescholar %}
@@ -16,34 +17,13 @@ redirect_from:
 {% endif %}
 
 <br/>
-<h1 id="students">{% t student_title %}</h1>
+<h1 id="students">指导学生</h1>
 
-
-{% t graduate_title %}
+研究生
 ======
-* {% t tucunchao %}
-* {% t ayana %}
-* {% t yangcheng %}
-* {% t linyankai %}
-* {% t xieruobing %}
-* {% t hanxu %}
-* {% t yaoyuan %}
-* {% t zhonghaoxi %}
-* {% t zhoujie %}
-* {% t zhangkaitao %}
-* {% t zhangzhengyan %}
-* {% t cuiganqu %}
-* {% t xiaochaojun %}
-* {% t zengzheni %}
-* {% t qinyujia %}
-* {% t yijing %}
-* {% t wangfengyu %}
-* {% t hushengding %}
-* {% t chenweize %}
-* {% t yushi %}
-* {% t wangyuzhong %}
-* {% t hechaoqun %}
-
+{% for student in site.data.test.graduate_zh %}
+  * {{student}}
+{% endfor %}
 
 Undergraduates
 ======
