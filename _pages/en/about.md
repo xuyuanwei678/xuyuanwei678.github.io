@@ -65,7 +65,7 @@ Undergraduates
 * Class 2005: Peng Li (THU->THU PhD->Baidu IDL).
 
 <br />
-<h1 id="bio">个人简介</h1>
+<h1 id="bio">Bio</h1>
 
 Education
 ======
