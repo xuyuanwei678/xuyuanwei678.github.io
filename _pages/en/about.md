@@ -19,7 +19,7 @@ lang: 'en'
 <br/>
 <h1 id="students">{% t student_title %}</h1>
 
-123456
+
 {% t graduate_title %}
 ======
 * {% t tucunchao %}
@@ -65,7 +65,7 @@ Undergraduates
 * Class 2005: Peng Li (THU->THU PhD->Baidu IDL).
 
 <br />
-<h1 id="bio">Bio</h1>
+<h1 id="bio">个人简介</h1>
 
 Education
 ======
@@ -85,12 +85,29 @@ Research Fundings
 
 Awards
 ======
+* 2022 Best Demo Paper Award of ACL 2022 (OpenPrompt: An Open-source Framework for Prompt-learning, * withNing Ding, Shengding Hu, Weilin Zhao as co-first authors).
+* 2020 Best Short Paper Award of SIGIR 2020 (Few-Shot Generative Conversational Query Rewriting, with *Shi Yu as the first author).
+* 2020 Most Influential Scholar Award (AI 2000) in AAAI/IJCAI and Honorable Mention in NLP.
+* 2019 Young Scientist of Beijing Academy of Artificial Intelligence (BAAI).
+* 2018 MIT Technology Review 35 Innovators Under 35, China.
+* 2017 Scholar of Young Talent Promoting Project of CAST.
+* 2016 CIPS Youth Innovation Prize.
+* 2016 Second Prize of Tsinghua Teaching Achievement Award (3rd/5).
+* 2015 CCF-Intel Young Faculty Researcher Program (YFRP).
+* 2014 Second Prize of Tsinghua Teaching Achievement Award (3rd/5).
+* 2013 Excellent Post-doctoral Fellow Award, Tsinghua University.
+* 2012 Excellent Counsellor Award of "Lin Feng", Tsinghua University.
+* 2012 Excellent Doctoral Dissertation awarded by Chinese Association for Artificial Intelligence.
+* 2012 First Prize of Tsinghua Teaching Achievement Award (3rd/5).
+* 2011 Second class award for Excellent Doctoral Dissertation of Tsinghua University.
+* 2011 Advanced individual in Tsinghua University 100th Anniversary.
+* 2010 Google China intern scholarship, Google.
+* 2010 First class scholarship (Sohu Scholarship), Tsinghua University.
+* 2009 First class scholarship (Tung OOCL Scholarship), Tsinghua University.
+* 2008 Excellent Counsellor Award of "December 9th Movement", Tsinghua University.
+* 2008 First class scholarship (Tung OOCL Scholarship), Tsinghua University.
+* 2006 Excellent Graduate, Tsinghua University.
 
-{% for sv in site.data.test.academic_services %}
-{% if sv.sv_key != "" %}
-* {% t sv.sv_key %}
-{% endif %}
-{% endfor %}
 Academic Services
 ======
 * Senior Action Editor: ACL ARR (2022-).

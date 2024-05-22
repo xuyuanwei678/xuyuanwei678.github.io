@@ -9,11 +9,11 @@ lang: 'zh'
 ---
 
 <h1>关于</h1>
-我是清华大学计算机系[自然语言处理实验室](https://nlp.csai.tsinghua.edu.cn/)副教授，主要研究方向为自然语言处理、知识图谱及社会计算。长期招收博士生(每年1个名额)、博士后和访问学生。 请感兴趣的同学阅读相关说明， 请申请者发送邮件联系我并附简历。
+我是清华大学计算机系[自然语言处理实验室](https://nlp.csai.tsinghua.edu.cn/)副教授，主要研究方向为自然语言处理、知识图谱及社会计算。长期招收博士生(每年1个名额)、博士后和访问学生。请感兴趣的同学阅读相关说明，请申请者发送邮件联系我并附简历。
 
-<h1 id="publications">Publications</h1>
+<h1 id="publications">论文发表</h1>
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">完整论文列表详见<a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
 <br/>
@@ -25,57 +25,81 @@ lang: 'zh'
   * {{student}}
 {% endfor %}
 
-Undergraduates
+本科生
 ======
-* Class 2019: Xun Sun (THU->), Wanrong He (THU->), Junwen Tan (THU->), Yining Ye (THU->), Muyan Hu (THU->), Chenning Sun (CUG->), Yutao Sun (THU->).
-* Class 2018: Yuzhuo Bai (THU->), Keyue Qiu (THU->), Yongwei Li (THU->), Bowen Dong (THU->), Yushi Bai (THU->), Yufeng Du (THU->), Jiayou Zhang (THU->), Zeyuan Zhang (THU->), Guangxuan Xiao (THU->), Tianyu Wang (BJUT->), Yuan Zang * (THU->), Weihan Jiang (Beihang->), Qianrui Zhou (THU->), Tingji Zhang (THU->), Yangyi Chen (HUST->), Xueyu Hu (Beihang->).
-* Class 2017: Weize Chen (THU->THU PhD), Yi Dai (THU->THU PhD), Hao Peng (THU->THU Master), Ziqi Wang (THU->), Rong Han (THU->THU PhD), Wangyi Jiang (THU->CAS PhD), Tianyu Yu (Beihang->THU), Zhengxian Fan (UCL->), Yuxian Gu (THU->THU * PhD), Yun Shi (THU->THU Master), Shi Yu (THU->THU PhD), Xurui Zhang (THU->), Bairu Hou (THU->), Mukai Li (Beihang->), Xuyang Jin (THU->), Chuancheng Lv (THU->THU Master), Shirong Ma (THU->THU Master), Yuzhong Wang (THU->THU Master).
-* Class 2016: Liang Chang (BUPT->ByteDance), Tianyu Gao (THU->Princeton), Shengding Hu (THU->THU Master), Junjie Huang (Beihang->UIUC Master), Haozhe Ji (THU->THU PhD), Sicong Ouyang (BUPT->BUPT Master), Yujia Qin (THU->THU PhD), * Xiaozhi Wang (THU->THU PhD), Ruidong Wu (THU->), Chaojun Xiao (THU->THU PhD), Guoyang Zeng (THU->THU), Juexiao Zhang (THU->), Zheni Zeng (THU->THU PhD), Kai Zhang (ZUCC->THU RA), Ao Zhang (NJU->THU RA), Chenyang Zhu (SUFE->THU RA), * Xuanming Zhang (UNNC->THU RA), Sichen Jin (ZJU->THU RA), Lingbo Tong (SCU->THU RA).
-* Class 2015: Xiang Li (THU->), Yihong Gu (THU->), Zhiyuan Liu (XJTU->NUS), Shangbang Long (PKU->), Yifan Qiao (THU->), Changhe Song (THU->THU Master), Jun Yan（THU->USC PhD), Chenghao Yang (Beihang->), Pengfei Yu (THU->UIUC PhD), * Zhijingcheng Yu (THU->NUS PhD), Yuhui Zhang (THU->Stanford Master), Zhengyan Zhang (THU->THU PhD), Hao Zhu (THU->CMU PhD), Ganqu Cui (THU->THU Master).
-* Class 2014: Deming Ye (THU->THU PhD), Yuan Yao (THU->THU PhD), Jiaju Du (THU->THU Master), Yilin Niu (THU->THU PhD), Haoxi Zhong (THU->THU Master), Luming Tang (THU->Cornell PhD), Ji Xin (THU->U Waterloo PhD), Xingchi Yuan * (THU->Google), Ziyun Wang (THU->NYU Master), Zikun Hu (THU->NUS PhD).
-* Class 2013: Lei Xu (THU->MIT PhD), Xu Han (THU->THU PhD), Zhipeng Guo (THU->THU Master), Hao Wang (THU->NTU PhD), Wenyuan Zeng (THU->U Toronto PhD), Jiawei Wu (THU->UCSB PhD).
-* Class 2012: Honyin Luo (THU->MIT PhD), Zichuan Lin (THU->THU Master), Weicheng Zhang (BUPT->JHU Master), Deyang Yin (BUPT->Columbia Master).
-* Class 2011: Yang Liu (THU->UIUC PhD), Tianze Shi (THU->Cornell PhD), Ying Lin (BUPT->RPI PhD), Haitian Gong (BUPT->CMU Master).
-* Class 2010: Yan Wang (THU->CMU Master), Yankai Lin (THU->THU PhD).
-* Class 2009: Han Zhao (THU->Waterloo Master), Chen Liang (THU->PSU PhD), Han Li (THU->WISC PhD), Cunchao Tu (THU->THU PhD), Xiaowen Chu (BUPT->CMU Master).
-* Class 2008: Sicong Zhang(THU->Georgetown PhD), Weipeng He (THU->Hamburg Master).
-* Class 2007: Wenyi Huang (THU->PSU PhD), Xinxiong Chen (THU->THU PhD->Startups).
-* Class 2006: Xiaxiao Li (BUPT->Alberta Master), Chuan Shi (THU EE->UMN PhD).
-* Class 2005: Peng Li (THU->THU PhD->Baidu IDL).
+* 2016级: 常亮 (BUPT->), 高天宇 (THU->), 胡声鼎 (THU->THU Master), 黄俊杰 (Beihang->), 计昊哲 (THU->THU * PhD), 欧阳思聪 (BUPT->), 秦禹嘉 (THU->), 王晓智 (THU->THU PhD), 吴睿东 (THU->), 肖朝军 (THU->THU PhD), * 曾国洋 (THU->THU), 张觉晓 (THU->).
+* 2015级: 李想 (THU->), 顾逸宏 (THU->Hongkong), 刘致远 (XJTU->NUS), 龙上邦 (PKU->CMU Master), 乔逸凡 * (THU->), 宋长河 (THU->THU Master), 闫俊 (THU->USC PhD), 杨承昊 (Beihang->), 于鹏飞(THU->UIUC PhD), 于志竟成 (THU->NUS PhD), 张钰晖 (THU->), 张正彦 (THU->THU PhD), 朱昊 (THU->),
+* 2014级: 叶德铭 (THU->THU PhD), 姚远 (THU->THU PhD), 杜家驹 (THU->THU Master), 牛艺霖 (THU->THU PhD), 钟* 皓曦 (THU->THU Master), 王子云 (THU->NYU Master), 辛极 (THU->U Waterloo PhD), 胡紫昆 (THU->NUS PhD), * 唐路明 (THU->Cornell PhD), 袁星驰 (THU->Google).
+* 2013级: 徐磊 (THU->MIT PhD), 韩旭 (THU->THU PhD), 郭志芃 (THU->THU Master), 曾文远 (THU->U Toronto  PhD), 吴佳炜(THU->UCSB PhD), 王豪 (THU->NTU PhD).
+* 2012级: 罗鸿胤 (THU->MIT PhD), 林子钏 (THU->THU Master), 张惟诚 (BUPT->JHU Master), 尹德阳 * (BUPT->Columbia Master).
+* 2011级: 刘扬 (THU->UIUC PhD), 史天泽 (THU->Cornell PhD), 林颖 (BUPT->RPI PhD), 宫海天 (BUPT->CMU * Master).
+* 2010级: 王焱 (THU->CMU Master), 林衍凯 (THU->THU PhD).
+* 2009级: 赵晗 (THU->Waterloo Master), 梁晨 (THU->PSU PhD), 李瀚 (THU->WISC PhD), 涂存超 (THU->THU * PhD), 储孝文 (BUPT->CMU Master).
+* 2008级: 张思聪 (THU->Georgetown PhD), 何伟鹏 (THU->Hamburg Master).
+* 2007级: 黄文溢 (THU->PSU PhD), 陈新雄 (THU->THU PhD->创业).
+* 2006级: 李逍霄 (BUPT->Alberta Master), 石川 (THU EE->UMN PhD).
+* 2005级: 李鹏 (THU->THU PhD->百度IDL).
 
 <br />
 <h1 id="bio">Bio</h1>
 
-Education
+教育工作经历
 ======
-* Aug, 2006 - 2011. Ph.D, Dept. of Computer Science and Technology, Tsinghua University, Beijing.
-* Sep, 2002 - Jul, 2006. Undergraduate, Dept. of Computer Science and Technology, Tsinghua University, Beijing.
-* Sep, 1989 - Jul, 2002. Elementary school, middle school and high school, Taian, Shandong.
+* 2017年12月 - 至今. 清华大学计算机系, 教研系列准聘副教授.
+* 2016年8月 - 2017年12月. 清华大学计算机系, 教研系列助理教授.
+* 2013年12月 - 2016年8月. 清华大学计算机系, 助理研究员.
+* 2011年8月 - 2013年12月. 清华大学计算机系, 博士后.
+* 2006年8月 - 2011年7月. 清华大学计算机系, 博士.
+* 2002年8月 - 2006年7月. 清华大学计算机系, 本科.
 
-Research Fundings
+研究项目
 ======
-* PI. Distributed Representation Learning, Knowledge Acquisition and Inference Applications of Large-Scale Knowledge Graphs (61572273). National Science Foundation of China (NSFC), 2016-2019.
-* PI. Robust Full-document Entity Recognition and Disambiguation with Large-Scale Knowledge Bases. MOE-Microsoft Key Laboratory of Media and Networking Technology, Tsinghua University. 2014-2015.
-* PI. Efficient Chinese Entity Linking for Large-scale Web Corpus to Heterogeneous Entity Networks. MOE-Microsoft Key Laboratory of Media and Networking Technology, Tsinghua University. 2013-2014.
-* PI. Research on Information Diffusion and Credibility in Social Media based on Collaborative Semantics. National Science Foundation of China (NSFC), 2013-2015.
-* Project member (rank 2nd). Research on Chinese Keyword Annotation by Integrating Keyword Extraction and Social Tag Suggestion. 2012-2015, National Science Foundation of China (NSFC).
-* Project member (rank 2nd). Research on Attributes, Structure and Evolutionary Dynamics of Chinese Complex Networks, 2009-2011, National Science Foundation of China (NSFC).
-* Project member. Research on Semantic Classification and Understanding of Large-scale Web Image and Text Data, 2007-2009, National High-tech R&D Program of China (863 Program).
+* 项目负责人. 大规模知识图谱的分布式表示学习、知识获取与推理应用(61572273). 国家自然科学基金 (NSFC)面上基金项目, 2016-2019.
+* 项目负责人. Robust Full-document Entity Recognition and Disambiguation with Large-Scale Knowledge  Bases. 清华大学媒体与网络技术教育部-微软重点实验室. 2014-2015.
+* 项目负责人. Efficient Chinese Entity Linking for Large-scale Web Corpus to Heterogeneous Entity * Networks. 清华大学媒体与网络技术教育部-微软重点实验室. 2013-2014.
+* 项目负责人. 基于协同语义计算的社交媒体信息扩散与可信性研究(61202140). 国家自然科学基金 (NSFC)青年基金项目, 2013-2015.
+* 项目参与人. 关键词抽取与社会标签推荐相结合的中文文本主题词自动标注方法研究. 国家自然科学基金 (NSFC)面上项目, 2012-2015.
+* 项目参与人. 汉语复杂网络的性质、结构、演化及其典型应用研究. 国家自然科学基金 (NSFC)面上项目, 2009-2011.
+* 项目参与人. 大规模网络图文数据的语义分类和适度理解技术研究. 863项目, 2007-2009.
 
-Awards
+获得奖励
 ======
+* 2021. Frontiers of Computer Science期刊2019-2020年度优秀青年AE.
+* 2021. 清华大学优秀硕士学位论文指导教师 (硕士毕业生：钟皓曦).
+* 2021. 清华大学教学成果一等奖 - 坚持思想引领与因材施教并举，构建“五星计划”三全育人体系 (刘奕群, 刘知远, 谢晓晖, 韩文弢, 韩旭).
+* 2021. 清华大学教学成果一等奖 - “德、能、严”引领驱动的计算机系博士生“三全”创新培养体系 (孙茂松, 武永卫, 刘知远, 易鑫, 鲍丽薇).
+* 2020. 教育部高等学校科学研究优秀成果奖（科学技术）自然科学奖一等奖 - 结构化知识表示学习方法（完成人：孙茂松, 刘知远, 林衍凯, 杨成, 谢若冰）.
+* 2020. 中国中文信息学会科学技术奖/钱伟长中文信息处理科学技术奖 - 大规模中文词汇语义分析关键技术及其开源应用 (完成人: 孙茂松, 刘知远, 刘洋, 杨麟儿, 陈新雄, 涂存超, 李鹏, 司宪策, 乔维）.
+* 2020. 国家青年拔尖人才计划.
+* 2020. 中国精品科技期刊顶尖学术论文(F5000, 论文题目: 知识表示学习研究进展, 学生作者: 林衍凯, 谢若冰).
+* 2020. 《中国科学: 信息科学》2019年热点论文奖(论文题目: 网络表示学习综述, 学生作者: 涂存超, 杨成).
+* 2020. 《清华大学学报(自然科学版)》优秀审稿人.
+* 2020. AI 2000人工智能全球最具影响力学者.
+* 2020. SIGIR 2020 最佳短文奖（第一作者：于是).
+* 2020. 清华大学先进工作者.
+* 2019. 中国计算机学会杰出演讲者.
+* 2019. 北京智源人工智能研究院青年科学家.
+* 2019. 中国新闻传播学年鉴优秀论文奖(论文题目: 社交媒体平台谣言的早期自动检测, 学生作者: 宋长河, 杨成).
+* 2018. MIT TR 35中国区榜单.
+* 2017. 中国科协青年人才托举计划.
+* 2016. 中国中文信息学会-钱伟长中文信息处理科学技术奖青年创新一等奖.
+* 2016. 清华大学教学成果二等奖 (第3完成人/共5位申请人).
+* 2015. CCF-Intel 青年学者提升计划 (全国6人/17位候选人).
+* 2014. 清华大学教学成果二等奖 (第3完成人/共5位申请人).
+* 2013. 清华大学优秀博士后.
+* 2012. 清华大学林枫辅导员奖.
+* 2012. 中国人工智能学会优秀博士学位论文奖.
+* 2012. 清华大学教学成果一等奖 (第3完成人/共5位申请人).
+* 2011. 清华大学优秀博士学位论文二等奖.
+* 2011. 清华大学百年校庆工作先进个人.
+* 2010. Google中国优秀实习生奖.
+* 2010. 清华大学一等奖学金 (搜狐奖学金).
+* 2009. 清华大学一等奖学金 (董氏东方奖学金).
+* 2008. 清华大学一二九辅导员奖.
+* 2008. 清华大学一等奖学金 (董氏东方奖学金).
+* 2006. 清华大学优良毕业生.
 
-{% for sv in site.data.test.academic_services %}
-{% if sv.sv_key != "" %}
-* {% t sv.sv_key %}
-{% endif %}
-{% endfor %}
-Academic Services
+
+学术服务
 ======
-* Senior Action Editor: ACL ARR (2022-).
-* Action Editor: TACL (2021-), ACL ARR (2021-2022).
-* Editorial Board: Computational Linguistics (2021-), Journal of Computer Science and Technology (2021-), Frontiers of Computer Science (2013-), Machine Intlligence Research (2021-), Neurocomputing (2019-2022).
-* PC Chair: CIKM 2020 Short Paper Track.
-* Area Chair: ACL 2021 2018 2017, EMNLP 2021 2020 2019, WWW 2021, IJCAI 2021, COLING 2020 2018, AACL 2020, IJCNLP 2017, NLPCC 2020.
-* Senior PC: IJCAI 2022.
-* Others: IJCAI 2021 (Reproducibility), ACL 2020 (Publicity), CIKM 2019 (Publicity).
+* 中国中文信息学会青年工作委员会主任, 计算语言学专委会委员, 语言与知识计算专委会委员, 社会媒体处理专委会秘书长
