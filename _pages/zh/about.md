@@ -47,21 +47,20 @@ lang: 'zh'
 本科生
 ======
 * 2020级
-  * 钱    成 ( THU -> UIUC )
+  * 钱&nbsp;成 ( THU -> UIUC )
   * 田润初 ( THU -> UIUC )
   * 曾致远 ( THU -> UW PhD )
-  * 姚    峰 ( THU -> UCSD PhD)
+
 
 * 2018级
   * 肖光烜 ( THU -> MIT 清华一二·九奖学金、学生“未来学者”)
-  * 臧  原 ( THU -> 清华大学“科技创新 星火燎原”、学生“未来学者”)
+  * 臧&nbsp;原 ( THU -> 清华大学“科技创新 星火燎原”、学生“未来学者”)
   * 杜雨峰 ( THU -> UIUC)
 
 * 2017级
   * 司程磊 ( THU -> Stanford PhD)
   * 朱  昊 ( THU -> CMU PhD)
   * 刘致远 ( THU -> NUS PhD)
-  * 张  傲 ( THU -> NUS)
   * 陈扬意 ( THU -> UIUC)
   * 陈雨琳 ( THU -> THU Master -> NYU PhD)
   * 袁立凡 ( THU -> )
@@ -76,7 +75,8 @@ lang: 'zh'
 
 * 2016级
   * 曾国洋 ( THU -> THU -> Startups)
-  * 常亮 (BUPT->)
+  * 常&nbsp;亮 ( BUPT->)
+  * 张&nbsp;傲 ( NJU -> NUS PhD)  
   * 高天宇 (THU->)
   * 胡声鼎 (THU->THU Master)
   * 黄俊杰 (Beihang->)
@@ -87,6 +87,7 @@ lang: 'zh'
   * 吴睿东 (THU->)
   * 肖朝军 (THU->THU PhD)
   * 张觉晓 (THU->)
+  * 姚&nbsp;峰 ( THU -> UCSD PhD)
 
 * 2015级
   * 李想 (THU->)
