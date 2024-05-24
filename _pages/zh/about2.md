@@ -1,5 +1,5 @@
 ---
-permalink: /zh
+permalink: /zh1
 title: ""
 author_profile: true
 redirect_from: 
@@ -54,10 +54,11 @@ lang: 'zh'
   * 刘鸿樟 (THU -> USYD)
 
 * 2018级
-  * <span class="student-box"> 肖光烜 <span class="education"><span class="education-first">( THU </span>-> )</span> <span class="student-informations"> MIT 清华一二·九奖学金、学生“未来学者”</span></span>
-  * <span class="student-box">臧<span style="padding-left:1em;"></span>原<span class="education"><span class="education-first">( THU </span>-> )</span>清华大学“科技创新 星火燎原”、学生“未来学者”</span>
+  * <span class="student-box"> 肖光烜 <span class="education"><span class="education-first">( THU </span>-> )<br/>MIT 清华一二·九奖学金、学生“未来学者”</span>  </span>
+  * <span class="student-box">臧<span style="padding-left:1em;"></span>原<span class="education"><span class="education-first">( THU </span>-> )<br/>清华大学“科技创新 星火燎原”、学生“未来学者”</span></span>
   * <span class="student-box">杜雨峰 <span class="education"><span class="education-first">( THU </span>-> UIUC )</span></span>
   * <span class="student-box">陈扬意 <span class="education"><span class="education-first">( HUST </span>-> UIUC )</span></span>
+
 * 2017级
   * 朱<span style="padding-left:1em;"></span>昊 (THU -> CMU PhD)
   * 刘致远 (THU -> NUS PhD)

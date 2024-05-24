@@ -125,6 +125,19 @@ body:hover .visually-hidden button {
   white-space: -o-pre-wrap;   /* Opera 7 */    
   word-wrap: break-word;      /* IE */
 }
+.student-box{
+  display: flex;
+  .education{
+    padding-left: 0.5em;
+    display: inline-block;
+    min-width: 200px;
+    .education-first{
+      display: inline-block;
+      min-width: 60px;
+    }
+  }
+
+}
 .student-name{
   width: 5em;
   display: flex;
@@ -133,6 +146,10 @@ body:hover .visually-hidden button {
 .student-years{
   display: inline-block;
   min-width: 110px;
+}
+.student-informations{
+  display: inline-block;
+  flex: 1;
 }
 /*
    Images
