@@ -47,7 +47,7 @@ lang: 'zh'
 本科生
 ======
 * 2020级
-  * 钱&nbsp;成 ( THU -> UIUC )
+  * 钱<span style="padding-left:1em;"></span>成 ( THU -> UIUC )
   * 田润初 ( THU -> UIUC )
   * 曾致远 ( THU -> UW PhD )
   * 司程磊 (THU -> Stanford PhD)
