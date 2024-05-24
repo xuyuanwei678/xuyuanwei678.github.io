@@ -21,28 +21,28 @@ lang: 'zh'
 
 研究生
 ======
-* 涂存超 (2013-2018): 与孙茂松教授共同指导, 博士生. 社会计算与网络表示. 获清华大学优秀博士毕业生、优秀博士论文、北京市优秀毕业生. 毕业留清华大学博士后，后联合创始幂律智能初创企业. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2018_cunchao.pdf)
-* 阿雅娜 (2013-2019): 与孙茂松教授共同指导, 博士生. 文档摘要. 毕业赴内蒙古财经大学任教. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_ayana.pdf)
-* 林衍凯 (2014-2019): 与孙茂松教授共同指导, 博士生. 知识图谱表示、构建与应用. 获清华大学学术新秀、北京市优秀毕业生、百度学者. 毕业赴腾讯微信AI部门工作. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_linyankai.pdf)
-* 杨  成 (2014-2019): 博士生, 合作网络表示学习研究. 网络表示学习及其应用. 毕业赴北京邮电大学任教. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_yangcheng.pdf)
-* 谢若冰 (2014-2017): 与孙茂松教授共同指导, 硕士生. 知识表示学习. 获西贝尔学者、清华大学优秀硕士生、优秀硕士论文、北京市优秀毕业生. 毕业去腾讯微信部门工作. [硕士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2017_ruobing.pdf)
-* 韩  旭 (2017-2023): 博士生. 毕业留清华任助理研究员.
-* 钟皓曦 (2018-2021): 硕士生.
-* 姚  远 (2018-2023): 博士生.
-* 周  界 (2018-2021): 硕士生.
-* 张凯韬 (2018-2021): 硕士生.
-* 张正彦 (2019-2024): 博士生.
-* 崔淦渠 (2019-2024): 硕士生.
-* 肖朝军 (2020-在读): 博士生.
-* 曾哲妮 (2020-在读): 博士生.
-* 秦禹嘉 (2020-2024): 博士生.
-* 易  婧 (2020-2023): 硕士生.
-* 王凤玉 (2020-2023): 硕士生.
-* 胡声鼎 (2020-在读): 硕士生.
-* 陈暐泽 (2021-在读): 博士生.
-* 于  是 (2021-在读): 博士生.
-* 王聿中 (2021-2024): 硕士生.
-* 贺超群 (2021-在读): 硕士生.
+* 涂存超 <span class="student-years">(2013-2018):</span> 与孙茂松教授共同指导, 博士生. 社会计算与网络表示. 获清华大学优秀博士毕业生、优秀博士论文、北京市优秀毕业生. 毕业留清华大学博士后，后联合创始幂律智能初创企业. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2018_cunchao.pdf)
+* 阿雅娜 <span class="student-years">(2013-2019):</span> 与孙茂松教授共同指导, 博士生. 文档摘要. 毕业赴内蒙古财经大学任教. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_ayana.pdf)
+* 林衍凯 <span class="student-years">(2014-2019):</span> 与孙茂松教授共同指导, 博士生. 知识图谱表示、构建与应用. 获清华大学学术新秀、北京市优秀毕业生、百度学者. 毕业赴腾讯微信AI部门工作. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_linyankai.pdf)
+* 杨<span style="padding-left:1em;"></span>成 <span class="student-years">(2014-2019):</span> 博士生, 合作网络表示学习研究. 网络表示学习及其应用. 毕业赴北京邮电大学任教. [博士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_yangcheng.pdf)
+* 谢若冰 <span class="student-years">(2014-2017):</span> 与孙茂松教授共同指导, 硕士生. 知识表示学习. 获西贝尔学者、清华大学优秀硕士生、优秀硕士论文、北京市优秀毕业生. 毕业去腾讯微信部门工作. [硕士论文](https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2017_ruobing.pdf)
+* 韩<span style="padding-left:1em;"></span>旭 <span class="student-years">(2017-2023):</span> 博士生. 毕业留清华任助理研究员.
+* 钟皓曦 <span class="student-years">(2018-2021):</span> 硕士生.
+* 姚<span style="padding-left:1em;"></span>远 <span class="student-years">(2018-2023):</span> 博士生.
+* 周<span style="padding-left:1em;"></span>界 <span class="student-years">(2018-2021):</span> 硕士生.
+* 张凯韬 <span class="student-years">(2018-2021):</span> 硕士生.
+* 张正彦 <span class="student-years">(2019-2024):</span> 博士生.
+* 崔淦渠 <span class="student-years">(2019-2024):</span> 硕士生.
+* 肖朝军 <span class="student-years">(2020-在读):</span> 博士生.
+* 曾哲妮 <span class="student-years">(2020-在读):</span> 博士生.
+* 秦禹嘉 <span class="student-years">(2020-2024):</span> 博士生.
+* 易<span style="padding-left:1em;"></span>婧 <span class="student-years">(2020-2023):</span> 硕士生.
+* 王凤玉 <span class="student-years">(2020-2023):</span> 硕士生.
+* 胡声鼎 <span class="student-years">(2020-在读):</span> 硕士生.
+* 陈暐泽 <span class="student-years">(2021-在读):</span> 博士生.
+* 于<span style="padding-left:1em;"></span>是 <span class="student-years">(2021-在读):</span> 博士生.
+* 王聿中 <span class="student-years">(2021-2024):</span> 硕士生.
+* 贺超群 <span class="student-years">(2021-在读):</span> 硕士生.
 
 本科生
 ======
@@ -55,27 +55,27 @@ lang: 'zh'
 
 * 2018级
   * 肖光烜 ( THU -> MIT 清华一二·九奖学金、学生“未来学者”)
-  * 臧&nbsp;&nbsp;原 ( THU -> 清华大学“科技创新 星火燎原”、学生“未来学者”)
+  * 臧<span style="padding-left:1em;"></span>原 ( THU -> 清华大学“科技创新 星火燎原”、学生“未来学者”)
   * 杜雨峰 ( THU -> UIUC )
   * 陈扬意 ( HUST -> UIUC )
 
 * 2017级
-  * 朱  昊 (THU -> CMU PhD)
+  * 朱<span style="padding-left:1em;"></span>昊 (THU -> CMU PhD)
   * 刘致远 (THU -> NUS PhD)
   * 陈雨琳 (THU -> THU Master -> NYU PhD)
   * 袁立凡 (THU -> )
   * 詹棋闵 (THU -> HKUST PhD)
   * 于子淳 (THU -> CMU)
   * 范政贤 (THU -> Oxford PhD)
-  * 刘  维 (THU -> KCL)
-  * 张  凯 (THU -> OSU)
+  * 刘<span style="padding-left:1em;"></span>维 (THU -> KCL)
+  * 张<span style="padding-left:1em;"></span>凯 (THU -> OSU)
   * 陈乾瑜 (HIT -> CUHK PhD)	
   * 李振宇 (THU -> )
 
 * 2016级
   * 曾国洋 (THU -> THU -> Startups)
-  * 常&nbsp;亮 (BUPT->)
-  * 张&nbsp;傲 (NJU -> NUS PhD)  
+  * 常<span style="padding-left:1em;"></span>亮 (BUPT->)
+  * 张<span style="padding-left:1em;"></span>傲 (NJU -> NUS PhD)  
   * 高天宇 (THU->)
   * 胡声鼎 (THU->THU Master)
   * 黄俊杰 (BUAA->)
@@ -86,59 +86,59 @@ lang: 'zh'
   * 吴睿东 (THU->)
   * 肖朝军 (THU->THU PhD)
   * 张觉晓 (THU->)
-  * 姚&nbsp;峰 (THU -> UCSD PhD)
+  * 姚<span style="padding-left:1em;"></span>峰 (THU -> UCSD PhD)
 
 * 2015级
-  * 李想 (THU->)
+  * 李<span style="padding-left:1em;"></span>想 (THU->)
   * 顾逸宏 (THU->Hongkong)
   * 刘致远 (XJTU->NUS)
   * 龙上邦 (PKU->CMU Master)
   * 乔逸凡 (THU->)
   * 宋长河 (THU->THU Master)
-  * 闫俊 (THU->USC PhD)
+  * 闫<span style="padding-left:1em;"></span>俊 (THU->USC PhD)
   * 杨承昊 (Beihang->)
   * 于鹏飞(THU->UIUC PhD)
   * 于志竟成 (THU->NUS PhD)
   * 张钰晖 (THU->)
   * 张正彦 (THU->THU PhD)
-  * 朱昊 (THU->)
+  * 朱<span style="padding-left:1em;"></span>昊 (THU->)
 
 * 2014级
   * 叶德铭 (THU->THU PhD)
-  * 姚远 (THU->THU PhD)
+  * 姚<span style="padding-left:1em;"></span>远 (THU->THU PhD)
   * 杜家驹 (THU->THU Master)
   * 牛艺霖 (THU->THU PhD)
   * 钟皓曦 (THU->THU Master)
   * 王子云 (THU->NYU Master)
-  * 辛极 (THU->U Waterloo PhD)
+  * 辛<span style="padding-left:1em;"></span>极 (THU->U Waterloo PhD)
   * 胡紫昆 (THU->NUS PhD)
   * 唐路明 (THU->Cornell PhD)
   * 袁星驰 (THU->Google)
 
 * 2013级
-  * 徐磊 (THU->MIT PhD)
-  * 韩旭 (THU->THU PhD)
+  * 徐<span style="padding-left:1em;"></span>磊 (THU->MIT PhD)
+  * 韩<span style="padding-left:1em;"></span>旭 (THU->THU PhD)
   * 郭志芃 (THU->THU Master)
   * 曾文远 (THU->U Toronto PhD)
   * 吴佳炜(THU->UCSB PhD)
-  * 王豪 (THU->NTU PhD)
+  * 王<span style="padding-left:1em;"></span>豪 (THU->NTU PhD)
 * 2012级
   * 罗鸿胤 (THU->MIT PhD)
   * 林子钏 (THU->THU Master)
   * 张惟诚 (BUPT->JHU Master)
   * 尹德阳  (BUPT->Columbia Master).
 * 2011级
-  * 刘扬 (THU->UIUC PhD)
+  * 刘<span style="padding-left:1em;"></span>扬 (THU->UIUC PhD)
   * 史天泽 (THU->Cornell PhD)
-  * 林颖 (BUPT->RPI PhD)
+  * 林<span style="padding-left:1em;"></span>颖 (BUPT->RPI PhD)
   * 宫海天 (BUPT->CMU  Master).
 * 2010级
-  * 王焱 (THU->CMU Master)
+  * 王<span style="padding-left:1em;"></span>焱 (THU->CMU Master)
   * 林衍凯 (THU->THU PhD)
 * 2009级
-  * 赵晗 (THU->Waterloo Master)
-  * 梁晨 (THU->PSU PhD)
-  * 李瀚 (THU->WISC PhD)
+  * 赵<span style="padding-left:1em;"></span>晗 (THU->Waterloo Master)
+  * 梁<span style="padding-left:1em;"></span>晨 (THU->PSU PhD)
+  * 李<span style="padding-left:1em;"></span>瀚 (THU->WISC PhD)
   * 涂存超 (THU->THU PhD)
   * 储孝文 (BUPT->CMU Master)
 * 2008级
@@ -149,9 +149,9 @@ lang: 'zh'
   * 陈新雄 (THU->THU PhD->创业)
 * 2006级
   * 李逍霄 (BUPT->Alberta Master)
-  * 石川 (THU EE->UMN PhD)
+  * 石<span style="padding-left:1em;"></span>川 (THU EE->UMN PhD)
 * 2005级
-  * 李鹏 (THU->THU PhD->百度IDL)
+  * 李<span style="padding-left:1em;"></span>鹏 (THU->THU PhD->百度IDL)
 
 <br />
 <h1 id="bio">个人简介</h1>

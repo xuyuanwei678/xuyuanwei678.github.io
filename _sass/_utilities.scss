@@ -125,7 +125,15 @@ body:hover .visually-hidden button {
   white-space: -o-pre-wrap;   /* Opera 7 */    
   word-wrap: break-word;      /* IE */
 }
-
+.student-name{
+  width: 5em;
+  display: flex;
+  justify-content: space-between;
+}
+.student-years{
+  display: inline-block;
+  min-width: 110px;
+}
 /*
    Images
    ========================================================================== */
