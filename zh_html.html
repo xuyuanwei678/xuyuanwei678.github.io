@@ -336,9 +336,11 @@
     border: none;
     font-size: 1em;
   }
-  .table-li{
+
+  .table-li {
     margin-bottom: 0;
   }
+
   thead {
     border: none;
   }
@@ -352,15 +354,25 @@
     padding: 0;
     padding-bottom: 0.5em;
   }
-  .education{
+  .student-box{
+    display: inline !important;
+  }
+  .education {
     padding-left: 0.5em;
     display: inline-block;
-    min-width: 200px;
+    min-width: 20% !important;
   }
-  .education-first{
-      display: inline-block;
-      min-width: 60px;
-    }
+  ul {
+    list-style-position: outside; /* 确保标记在内容外部并对齐至第一行 */
+  }
+  .education-first {
+    display: inline;
+    min-width: 60px !important;
+  }
+  .student-name{
+    width: 3em;
+    display: inline-block;
+  }
 </style>
 
 <body>
@@ -426,57 +438,10 @@
         </li>
         <li>2018级
           <ul>
-            <table border="0">
-              <tbody>
-                <tr>
-                  <td>
-                    <li class="table-li"><span class="student-box">肖光烜</li>
-                  </td>
-                  <td>
-                    <span class="education">
-                      <span class="education-first">( THU </span>-> ) 
-                    </span>
-                  </td>
-                  <td><span class="student-informations"> MIT 清华一二·九奖学金、学生“未来学者”</span></td>
-                </tr>
-
-                <tr>
-                  <td>
-                    <li class="table-li"><span class="student-box">臧<span style="padding-left:1em;"></span>原</li>
-                  </td>
-                  <td>
-                    <span class="education">
-                      <span class="education-first">( THU </span>-> )
-                    </span>
-                  </td>
-                  <td><span class="student-informations"> 清华大学“科技创新 星火燎原”、学生“未来学者”</span></td>
-                </tr>
-
-                <tr>
-                  <td>
-                    <li class="table-li">杜雨峰</li>
-                  </td>
-                  <td>
-                    <span class="education">
-                      <span class="education-first">( THU </span>-&gt;UIUC )
-                    </span>
-                  </td>
-                  <td><span class="student-informations"></span></td>
-                </tr>
-
-                <tr>
-                  <td>
-                    <li class="table-li">陈扬意</li>
-                  </td>
-                  <td>
-                    <span class="education">
-                      <span class="education-first">( HUST </span>-&gt;UIUC )
-                    </span>
-                  </td>
-                  <td><span class="student-informations"></span></td>
-                </tr>
-              </tbody>
-            </table>
+            <li><span class="student-box">肖光烜<span class="education"><span class="education-first">( THU </span>-&gt; )</span><span class="student-informations">MIT 清华一二·九奖学金、学生“未来学者”</span></span></li>
+            <li><span class="student-box">臧<span style="padding-left:1em;"></span>原<span class="education"><span class="education-first">( THU </span>-&gt; )</span><span class="student-informations">清华大学“科技创新 星火燎原”、学生“未来学者”</span></span></li>
+            <li><span class="student-box">杜雨峰<span class="education"><span class="education-first">( THU </span>-&gt; UIUC )</span></span></li>
+            <li><span class="student-box">陈扬意<span class="education"><span class="education-first">( HUST </span>-&gt; UIUC )</span></span></li>
           </ul>
         </li>
         <li>2017级
@@ -678,6 +643,11 @@
       <ul>
         <li>中国中文信息学会青年工作委员会主任, 计算语言学专委会委员, 语言与知识计算专委会委员, 社会媒体处理专委会秘书长</li>
       </ul>
+
+
+
+
+
     </section>
 
   </div>
