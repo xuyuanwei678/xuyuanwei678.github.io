@@ -126,7 +126,9 @@ body:hover .visually-hidden button {
   word-wrap: break-word;      /* IE */
 }
 .student-box{
-  display: flex;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  align-self: flex-start !important;
   .education{
     padding-left: 0.5em;
     display: inline-block;
