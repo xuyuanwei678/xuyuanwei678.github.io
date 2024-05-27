@@ -61,38 +61,73 @@ lang: 'zh'
     justify-content: space-between;
     min-width: 3em;
   }
+  .students-two-box{
+    display: flex;
+  }
+  .stu-first{
+    display: flex;
+    width: fit-content;
+  }
+  .stu-second{
+    flex: 1;
+  }
 </style>
 
 <body>
   <div id="zh-html">
     <section class="page__content" itemprop="text">
       <h1>关于</h1>
-      <p>我是清华大学计算机系<a
+      <p><span style="padding-left: 2em;"></span>我是清华大学计算机系<a
           href="https://nlp.csai.tsinghua.edu.cn/">自然语言处理实验室</a>副教授，主要研究方向为自然语言处理、知识图谱及社会计算。长期招收博士生(每年1个名额)、博士后和访问学生。请感兴趣的同学阅读相关说明，请申请者发送邮件联系我并附简历。
       </p>
 
       <h1 id="publications">论文发表</h1>
 
-      <div class="wordwrap">完整论文列表详见我的<a href="https://scholar.google.com/citations?user=dT0v5u0AAAAJ">谷歌学术资料</a>。</div>
+      <div class="wordwrap"><span style="padding-left: 2em;"></span>完整论文列表详见我的<a href="https://scholar.google.com/citations?user=dT0v5u0AAAAJ">谷歌学术资料</a>。</div>
 
       <p><br></p>
       <h1 id="students">指导学生</h1>
 
       <h1 id="研究生">研究生</h1>
       <ul>
-        <li>涂存超 <span class="student-years">(2013-2018):</span> 与孙茂松教授共同指导, 博士生. 社会计算与网络表示.
-          获清华大学优秀博士毕业生、优秀博士论文、北京市优秀毕业生. 毕业留清华大学博士后，后联合创始幂律智能初创企业. <a
-            href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2018_cunchao.pdf">博士论文</a></li>
-        <li>阿雅娜 <span class="student-years">(2013-2019):</span> 与孙茂松教授共同指导, 博士生. 文档摘要. 毕业赴内蒙古财经大学任教. <a
-            href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_ayana.pdf">博士论文</a></li>
-        <li>林衍凯 <span class="student-years">(2014-2019):</span> 与孙茂松教授共同指导, 博士生. 知识图谱表示、构建与应用. 获清华大学学术新秀、北京市优秀毕业生、百度学者.
-          毕业赴腾讯微信AI部门工作. <a href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_linyankai.pdf">博士论文</a></li>
-        <li>杨<span style="padding-left: 1em;"></span>成 <span class="student-years">(2014-2019):</span> 博士生, 合作网络表示学习研究.
-          网络表示学习及其应用. 毕业赴北京邮电大学任教. <a href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_yangcheng.pdf">博士论文</a>
+        <li>
+          <div class="students-two-box">
+            <div class="stu-first">涂存超<span class="student-years">(2013-2018):</span></div> 
+            <div class="stu-second">与孙茂松教授共同指导, 博士生. 社会计算与网络表示.
+              获清华大学优秀博士毕业生、优秀博士论文、北京市优秀毕业生. 毕业留清华大学博士后，后联合创始幂律智能初创企业. <a
+                href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2018_cunchao.pdf">博士论文</a></div>
+          </div>
+          
         </li>
-        <li>谢若冰 <span class="student-years">(2014-2017):</span> 与孙茂松教授共同指导, 硕士生. 知识表示学习.
-          获西贝尔学者、清华大学优秀硕士生、优秀硕士论文、北京市优秀毕业生. 毕业去腾讯微信部门工作. <a
-            href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2017_ruobing.pdf">硕士论文</a></li>
+        <li>
+          <div class="students-two-box">
+            <div class="stu-first">阿雅娜<span class="student-years">(2013-2019):</span></div> 
+            <div class="stu-second">与孙茂松教授共同指导, 博士生. 文档摘要. 毕业赴内蒙古财经大学任教. <a
+              href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_ayana.pdf">博士论文</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="students-two-box">
+            <div class="stu-first">林衍凯<span class="student-years">(2014-2019):</span></div> 
+            <div class="stu-second">与孙茂松教授共同指导, 博士生. 知识图谱表示、构建与应用. 获清华大学学术新秀、北京市优秀毕业生、百度学者.
+              毕业赴腾讯微信AI部门工作. <a href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_linyankai.pdf">博士论文</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="students-two-box">
+            <div class="stu-first">杨<span style="padding-left: 1em;"></span>成<span class="student-years">(2014-2019):</span></div> 
+            <div class="stu-second">博士生, 合作网络表示学习研究.
+              网络表示学习及其应用. 毕业赴北京邮电大学任教. <a href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_yangcheng.pdf">博士论文</a></div>
+          </div>
+        </li>
+        <li>
+          <div class="students-two-box">
+            <div class="stu-first">谢若冰<span class="student-years">(2014-2017):</span></div> 
+            <div class="stu-second">与孙茂松教授共同指导, 硕士生. 知识表示学习.
+              获西贝尔学者、清华大学优秀硕士生、优秀硕士论文、北京市优秀毕业生. 毕业去腾讯微信部门工作. <a
+                href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2017_ruobing.pdf">硕士论文</a></div>
+          </div>
+        </li>
         <li>韩<span style="padding-left: 1em;"></span>旭 <span class="student-years">(2017-2023):</span> 博士生. 毕业留清华任助理研究员.
         </li>
         <li>钟皓曦 <span class="student-years">(2018-2021):</span> 硕士生.</li>
