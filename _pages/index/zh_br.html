@@ -1,5 +1,5 @@
 ---
-permalink: /zh_br
+permalink: /zh_2
 title: ""
 author_profile: true
 redirect_from:
@@ -35,10 +35,36 @@ lang: 'zh'
     padding: 0;
     padding-bottom: 0.5em;
   }
+  .student-box{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-self: flex-start !important;
+  }
+  .education {
+    padding-left: 0.5em;
+    display: inline-block;
+    min-width: 30% !important;
+  }
+  ul {
+    list-style-position: outside; /* 确保标记在内容外部并对齐至第一行 */
+  }
+  .education-first {
+    display: inline;
+    min-width: 60px !important;
+  }
+  .student-name{
+    width: 3em;
+    display: inline-block;
+  }
+  .student-jutify{
+    display: flex;
+    justify-content: space-between;
+    min-width: 3em;
+  }
 </style>
 
 <body>
-  <div class="zh-html">
+  <div id="zh-html">
     <section class="page__content" itemprop="text">
       <h1>关于</h1>
       <p>我是清华大学计算机系<a
@@ -61,28 +87,28 @@ lang: 'zh'
             href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_ayana.pdf">博士论文</a></li>
         <li>林衍凯 <span class="student-years">(2014-2019):</span> 与孙茂松教授共同指导, 博士生. 知识图谱表示、构建与应用. 获清华大学学术新秀、北京市优秀毕业生、百度学者.
           毕业赴腾讯微信AI部门工作. <a href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_linyankai.pdf">博士论文</a></li>
-        <li>杨<span style="padding-left:1em;"></span>成 <span class="student-years">(2014-2019):</span> 博士生, 合作网络表示学习研究.
+        <li>杨<span style="padding-left: 1em;"></span>成 <span class="student-years">(2014-2019):</span> 博士生, 合作网络表示学习研究.
           网络表示学习及其应用. 毕业赴北京邮电大学任教. <a href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2019_yangcheng.pdf">博士论文</a>
         </li>
         <li>谢若冰 <span class="student-years">(2014-2017):</span> 与孙茂松教授共同指导, 硕士生. 知识表示学习.
           获西贝尔学者、清华大学优秀硕士生、优秀硕士论文、北京市优秀毕业生. 毕业去腾讯微信部门工作. <a
             href="https://nlp.csai.tsinghua.edu.cn/~lzy/thesis/2017_ruobing.pdf">硕士论文</a></li>
-        <li>韩<span style="padding-left:1em;"></span>旭 <span class="student-years">(2017-2023):</span> 博士生. 毕业留清华任助理研究员.
+        <li>韩<span style="padding-left: 1em;"></span>旭 <span class="student-years">(2017-2023):</span> 博士生. 毕业留清华任助理研究员.
         </li>
         <li>钟皓曦 <span class="student-years">(2018-2021):</span> 硕士生.</li>
-        <li>姚<span style="padding-left:1em;"></span>远 <span class="student-years">(2018-2023):</span> 博士生.</li>
-        <li>周<span style="padding-left:1em;"></span>界 <span class="student-years">(2018-2021):</span> 硕士生.</li>
+        <li>姚<span style="padding-left: 1em;"></span>远 <span class="student-years">(2018-2023):</span> 博士生.</li>
+        <li>周<span style="padding-left: 1em;"></span>界 <span class="student-years">(2018-2021):</span> 硕士生.</li>
         <li>张凯韬 <span class="student-years">(2018-2021):</span> 硕士生.</li>
         <li>张正彦 <span class="student-years">(2019-2024):</span> 博士生.</li>
         <li>崔淦渠 <span class="student-years">(2019-2024):</span> 硕士生.</li>
         <li>肖朝军 <span class="student-years">(2020-在读):</span> 博士生.</li>
         <li>曾哲妮 <span class="student-years">(2020-在读):</span> 博士生.</li>
         <li>秦禹嘉 <span class="student-years">(2020-2024):</span> 博士生.</li>
-        <li>易<span style="padding-left:1em;"></span>婧 <span class="student-years">(2020-2023):</span> 硕士生.</li>
+        <li>易<span style="padding-left: 1em;"></span>婧 <span class="student-years">(2020-2023):</span> 硕士生.</li>
         <li>王凤玉 <span class="student-years">(2020-2023):</span> 硕士生.</li>
         <li>胡声鼎 <span class="student-years">(2020-在读):</span> 硕士生.</li>
         <li>陈暐泽 <span class="student-years">(2021-在读):</span> 博士生.</li>
-        <li>于<span style="padding-left:1em;"></span>是 <span class="student-years">(2021-在读):</span> 博士生.</li>
+        <li>于<span style="padding-left: 1em;"></span>是 <span class="student-years">(2021-在读):</span> 博士生.</li>
         <li>王聿中 <span class="student-years">(2021-2024):</span> 硕士生.</li>
         <li>贺超群 <span class="student-years">(2021-在读):</span> 硕士生.</li>
       </ul>
@@ -91,151 +117,149 @@ lang: 'zh'
       <ul>
         <li>2020级
           <ul>
-            <li>钱<span style="padding-left:1em;"></span>成 ( THU -&gt; UIUC )</li>
-            <li>田润初 ( THU -&gt; UIUC )</li>
-            <li>曾致远 ( THU -&gt; UW PhD )</li>
-            <li>司程磊 (THU -&gt; Stanford PhD)</li>
-            <li>刘鸿樟 (THU -&gt; USYD)</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('钱成')"></span><span class="education"><span class="education-first">( THU </span>-&gt; UIUC PhD)</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('田润初')"></span><span class="education"><span class="education-first">( THU </span>-&gt; UIUC PhD)</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('曾致远')"></span><span class="education"><span class="education-first">( THU </span>-&gt; UW PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('司程磊')"></span><span class="education"><span class="education-first">( UMD </span>-&gt; CA PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('刘鸿樟')"></span><span class="education"><span class="education-first">( USYD </span>-&gt; USYD PhD)</span></span></li>
           </ul>
+        </li>
+        <li>2019级
+          <ul>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('于子淳')"></span><span class="education"><span class="education-first">( THU </span>-&gt; CMU PhD)</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('袁立凡')"></span><span class="education"><span class="education-first">( HUST </span>-&gt; UIUC PhD)</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('李振宇')"></span><span class="education"><span class="education-first">( THU </span>-&gt;  THU PhD)</span></span></li>
+          </ul>         
         </li>
         <li>2018级
           <ul>
-            <li><span class="student-box"> 肖光烜 <span class="education"><span class="education-first">( THU </span>-&gt;
-                  )<br>MIT 清华一二·九奖学金、学生“未来学者”</span> </span></li>
-            <li><span class="student-box">臧<span style="padding-left:1em;"></span>原<span class="education"><span
-                    class="education-first">( THU </span>-&gt; )<br>清华大学“科技创新 星火燎原”、学生“未来学者”</span></span></li>
-            <li><span class="student-box">杜雨峰 <span class="education"><span class="education-first">( THU </span>-&gt;
-                  UIUC )</span></span></li>
-            <li><span class="student-box">陈扬意 <span class="education"><span class="education-first">( HUST </span>-&gt;
-                  UIUC )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('肖光烜')"></span><span class="education"><span class="education-first">( THU </span>-&gt; MIT)</span><span class="student-informations">MIT 清华一二·九奖学金、学生“未来学者”</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('臧原')"></span><span class="education"><span class="education-first">( THU </span>-&gt; )</span><span class="student-informations">清华大学“科技创新 星火燎原”、学生“未来学者”</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('杜雨峰')"></span><span class="education"><span class="education-first">( THU </span>-&gt; UIUC )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('陈扬意')"></span><span class="education"><span class="education-first">( HUST </span>-&gt; UIUC )</span></span></li>
           </ul>
         </li>
         <li>2017级
           <ul>
-            <li>朱<span style="padding-left:1em;"></span>昊 (THU -&gt; CMU PhD)</li>
-            <li>刘致远 (THU -&gt; NUS PhD)</li>
-            <li>陈雨琳 (THU -&gt; THU Master -&gt; NYU PhD)</li>
-            <li>袁立凡 (THU -&gt; )</li>
-            <li>詹棋闵 (THU -&gt; HKUST PhD)</li>
-            <li>于子淳 (THU -&gt; CMU)</li>
-            <li>范政贤 (THU -&gt; Oxford PhD)</li>
-            <li>刘<span style="padding-left:1em;"></span>维 (THU -&gt; KCL)</li>
-            <li>张<span style="padding-left:1em;"></span>凯 (THU -&gt; OSU)</li>
-            <li>陈乾瑜 (HIT -&gt; CUHK PhD)</li>
-            <li>李振宇 (THU -&gt; )</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('刘致远')"></span><span class="education"><span class="education-first">( THU </span>-&gt; NUS PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('陈雨琳')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU Master -&gt; NYU PhD )</span></span></li>                                    
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('范政贤')"></span><span class="education"><span class="education-first">( UCL </span>-&gt; Oxford PhD )</span></span></li>            
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('张凯')"></span><span class="education"><span class="education-first">( THU </span>-&gt; OSU )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('陈乾瑜')"></span><span class="education"><span class="education-first">( HIT </span>-&gt; CUHK PhD )</span></span></li>            
           </ul>
         </li>
         <li>2016级
           <ul>
-            <li>曾国洋 (THU -&gt; THU -&gt; Startups)</li>
-            <li>常<span style="padding-left:1em;"></span>亮 (BUPT-&gt;)</li>
-            <li>张<span style="padding-left:1em;"></span>傲 (NJU -&gt; NUS PhD)</li>
-            <li>高天宇 (THU-&gt;)</li>
-            <li>胡声鼎 (THU-&gt;THU Master)</li>
-            <li>黄俊杰 (BUAA-&gt;)</li>
-            <li>计昊哲 (THU-&gt;THU PhD)</li>
-            <li>欧阳思聪 (BUPT-&gt;)</li>
-            <li>秦禹嘉 (THU-&gt;THU PhD)</li>
-            <li>王晓智 (THU-&gt;THU PhD)</li>
-            <li>吴睿东 (THU-&gt;)</li>
-            <li>肖朝军 (THU-&gt;THU PhD)</li>
-            <li>张觉晓 (THU-&gt;)</li>
-            <li>姚<span style="padding-left:1em;"></span>峰 (THU -&gt; UCSD PhD)</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('曾国洋')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU -&gt; Startups )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('常亮')"></span><span class="education"><span class="education-first">( BUPT </span>-&gt;  )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('张傲')"></span><span class="education"><span class="education-first">( NJU </span>-&gt; NUS PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('高天宇')"></span><span class="education"><span class="education-first">( THU </span>-&gt;  PU PhD)</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('胡声鼎')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU Master )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('黄俊杰')"></span><span class="education"><span class="education-first">( BUAA </span>-&gt;  )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('计昊哲')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('欧阳思聪')"></span><span class="education"><span class="education-first">( BUPT </span>-&gt;  )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('秦禹嘉')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('王晓智')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('吴睿东')"></span><span class="education"><span class="education-first">( THU </span>-&gt;  )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('肖朝军')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('张觉晓')"></span><span class="education"><span class="education-first">( THU </span>-&gt;  )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('姚峰')"></span><span class="education"><span class="education-first">( THU </span>-&gt; UCSD PhD )</span></span></li>
           </ul>
         </li>
         <li>2015级
           <ul>
-            <li>李<span style="padding-left:1em;"></span>想 (THU-&gt;)</li>
-            <li>顾逸宏 (THU-&gt;Hongkong)</li>
-            <li>刘致远 (XJTU-&gt;NUS)</li>
-            <li>龙上邦 (PKU-&gt;CMU Master)</li>
-            <li>乔逸凡 (THU-&gt;)</li>
-            <li>宋长河 (THU-&gt;THU Master)</li>
-            <li>闫<span style="padding-left:1em;"></span>俊 (THU-&gt;USC PhD)</li>
-            <li>杨承昊 (Beihang-&gt;)</li>
-            <li>于鹏飞(THU-&gt;UIUC PhD)</li>
-            <li>于志竟成 (THU-&gt;NUS PhD)</li>
-            <li>张钰晖 (THU-&gt;)</li>
-            <li>张正彦 (THU-&gt;THU PhD)</li>
-            <li>朱<span style="padding-left:1em;"></span>昊 (THU-&gt;)</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('詹棋闵')"></span><span class="education"><span class="education-first">( THU </span>-&gt; HKUST PhD )</span></span></li>                        
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('李想')"></span><span class="education"><span class="education-first">( THU </span>-&gt;  )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('顾逸宏')"></span><span class="education"><span class="education-first">( THU </span>-&gt; Hongkong )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('刘致远')"></span><span class="education"><span class="education-first">( XJTU </span>-&gt; NUS )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('龙上邦')"></span><span class="education"><span class="education-first">( PKU </span>-&gt; CMU Master )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('乔逸凡')"></span><span class="education"><span class="education-first">( THU </span>-&gt;  )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('宋长河')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU Master )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('闫俊')"></span><span class="education"><span class="education-first">( THU </span>-&gt; USC PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('杨承昊')"></span><span class="education"><span class="education-first">( BUAA </span>-&gt;  )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('于鹏飞')"></span><span class="education"><span class="education-first">( THU </span>-&gt; UIUC PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('于志竟成')"></span><span class="education"><span class="education-first">( THU </span>-&gt; NUS PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('张钰晖')"></span><span class="education"><span class="education-first">( THU </span>-&gt;  )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('张正彦')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('朱昊')"></span><span class="education"><span class="education-first">( THU </span>-&gt; CMU PhD )</span></span></li>
           </ul>
         </li>
         <li>2014级
           <ul>
-            <li>叶德铭 (THU-&gt;THU PhD)</li>
-            <li>姚<span style="padding-left:1em;"></span>远 (THU-&gt;THU PhD)</li>
-            <li>杜家驹 (THU-&gt;THU Master)</li>
-            <li>牛艺霖 (THU-&gt;THU PhD)</li>
-            <li>钟皓曦 (THU-&gt;THU Master)</li>
-            <li>王子云 (THU-&gt;NYU Master)</li>
-            <li>辛<span style="padding-left:1em;"></span>极 (THU-&gt;U Waterloo PhD)</li>
-            <li>胡紫昆 (THU-&gt;NUS PhD)</li>
-            <li>唐路明 (THU-&gt;Cornell PhD)</li>
-            <li>袁星驰 (THU-&gt;Google)</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('叶德铭')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('姚远')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('杜家驹')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU Master )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('牛艺霖')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('钟皓曦')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU Master )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('王子云')"></span><span class="education"><span class="education-first">( THU </span>-&gt; NYU Master )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('辛极')"></span><span class="education"><span class="education-first">( THU </span>-&gt; U Waterloo PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('胡紫昆')"></span><span class="education"><span class="education-first">( THU </span>-&gt; NUS PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('唐路明')"></span><span class="education"><span class="education-first">( THU </span>-&gt; Cornell PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('袁星驰')"></span><span class="education"><span class="education-first">( THU </span>-&gt; Google )</span></span></li>
           </ul>
         </li>
         <li>2013级
           <ul>
-            <li>徐<span style="padding-left:1em;"></span>磊 (THU-&gt;MIT PhD)</li>
-            <li>韩<span style="padding-left:1em;"></span>旭 (THU-&gt;THU PhD)</li>
-            <li>郭志芃 (THU-&gt;THU Master)</li>
-            <li>曾文远 (THU-&gt;U Toronto PhD)</li>
-            <li>吴佳炜(THU-&gt;UCSB PhD)</li>
-            <li>王<span style="padding-left:1em;"></span>豪 (THU-&gt;NTU PhD)</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('徐磊')"></span><span class="education"><span class="education-first">( THU </span>-&gt; MIT PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('韩旭')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('郭志芃')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU Master )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('曾文远')"></span><span class="education"><span class="education-first">( THU </span>-&gt; U Toronto PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('吴佳炜')"></span><span class="education"><span class="education-first">( THU </span>-&gt; UCSB PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('王豪')"></span><span class="education"><span class="education-first">( THU </span>-&gt; NTU PhD )</span></span></li>
           </ul>
         </li>
         <li>2012级
           <ul>
-            <li>罗鸿胤 (THU-&gt;MIT PhD)</li>
-            <li>林子钏 (THU-&gt;THU Master)</li>
-            <li>张惟诚 (BUPT-&gt;JHU Master)</li>
-            <li>尹德阳 (BUPT-&gt;Columbia Master).</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('罗鸿胤')"></span><span class="education"><span class="education-first">( THU </span>-&gt; MIT PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('林子钏')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU Master )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('张惟诚')"></span><span class="education"><span class="education-first">( BUPT </span>-&gt; JHU Master )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('尹德阳')"></span><span class="education"><span class="education-first">( BUPT </span>-&gt; Columbia Master )</span></span></li>
           </ul>
         </li>
         <li>2011级
           <ul>
-            <li>刘<span style="padding-left:1em;"></span>扬 (THU-&gt;UIUC PhD)</li>
-            <li>史天泽 (THU-&gt;Cornell PhD)</li>
-            <li>林<span style="padding-left:1em;"></span>颖 (BUPT-&gt;RPI PhD)</li>
-            <li>宫海天 (BUPT-&gt;CMU Master).</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('刘扬')"></span><span class="education"><span class="education-first">( THU </span>-&gt; UIUC PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('史天泽')"></span><span class="education"><span class="education-first">( THU </span>-&gt; Cornell PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('林颖')"></span><span class="education"><span class="education-first">( BUPT </span>-&gt; RPI PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('宫海天')"></span><span class="education"><span class="education-first">( BUPT </span>-&gt; CMU Master )</span></span></li>
           </ul>
         </li>
         <li>2010级
           <ul>
-            <li>王<span style="padding-left:1em;"></span>焱 (THU-&gt;CMU Master)</li>
-            <li>林衍凯 (THU-&gt;THU PhD)</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('王焱')"></span><span class="education"><span class="education-first">( THU </span>-&gt; CMU Master )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('林衍凯')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD )</span></span></li>
           </ul>
         </li>
         <li>2009级
           <ul>
-            <li>赵<span style="padding-left:1em;"></span>晗 (THU-&gt;Waterloo Master)</li>
-            <li>梁<span style="padding-left:1em;"></span>晨 (THU-&gt;PSU PhD)</li>
-            <li>李<span style="padding-left:1em;"></span>瀚 (THU-&gt;WISC PhD)</li>
-            <li>涂存超 (THU-&gt;THU PhD)</li>
-            <li>储孝文 (BUPT-&gt;CMU Master)</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('赵晗')"></span><span class="education"><span class="education-first">( THU </span>-&gt; Waterloo Master )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('梁晨')"></span><span class="education"><span class="education-first">( THU </span>-&gt; PSU PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('李瀚')"></span><span class="education"><span class="education-first">( THU </span>-&gt; WISC PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('涂存超')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('储孝文')"></span><span class="education"><span class="education-first">( BUPT </span>-&gt; CMU Master )</span></span></li>
           </ul>
         </li>
         <li>2008级
           <ul>
-            <li>张思聪 (THU-&gt;Georgetown PhD)</li>
-            <li>何伟鹏 (THU-&gt;Hamburg Master)</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('张思聪')"></span><span class="education"><span class="education-first">( THU </span>-&gt; Georgetown PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('何伟鹏')"></span><span class="education"><span class="education-first">( THU </span>-&gt; Hamburg Master )</span></span></li>
           </ul>
         </li>
         <li>2007级
           <ul>
-            <li>黄文溢 (THU-&gt;PSU PhD)</li>
-            <li>陈新雄 (THU-&gt;THU PhD-&gt;创业)</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('黄文溢')"></span><span class="education"><span class="education-first">( THU </span>-&gt; PSU PhD )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('陈新雄')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD-&gt;创业 )</span></span></li>
           </ul>
         </li>
         <li>2006级
           <ul>
-            <li>李逍霄 (BUPT-&gt;Alberta Master)</li>
-            <li>石<span style="padding-left:1em;"></span>川 (THU EE-&gt;UMN PhD)</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('李逍霄')"></span><span class="education"><span class="education-first">( BUPT </span>-&gt; Alberta Master )</span></span></li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('石川')"></span><span class="education"><span class="education-first">( THU EE </span>-&gt; UMN PhD )</span></span></li>
           </ul>
         </li>
         <li>2005级
           <ul>
-            <li>李<span style="padding-left:1em;"></span>鹏 (THU-&gt;THU PhD-&gt;百度IDL)</li>
+            <li><span class="student-box"><span class="student-jutify" v-html="getSrt('李鹏')"></span><span class="education"><span class="education-first">( THU </span>-&gt; THU PhD-&gt;百度IDL )</span></span></li>
           </ul>
         </li>
       </ul>
@@ -258,7 +282,7 @@ lang: 'zh'
         <li>项目负责人. 大规模知识图谱的分布式表示学习、知识获取与推理应用(61572273). 国家自然科学基金 (NSFC)面上基金项目, 2016-2019.</li>
         <li>项目负责人. Robust Full-document Entity Recognition and Disambiguation with Large-Scale Knowledge Bases.
           清华大学媒体与网络技术教育部-微软重点实验室. 2014-2015.</li>
-        <li>项目负责人. Efficient Chinese Entity Linking for Large-scale Web Corpus to Heterogeneous Entity * Networks.
+        <li>项目负责人. Efficient Chinese Entity Linking for Large-scale Web Corpus to Heterogeneous Entity Networks.
           清华大学媒体与网络技术教育部-微软重点实验室. 2013-2014.</li>
         <li>项目负责人. 基于协同语义计算的社交媒体信息扩散与可信性研究(61202140). 国家自然科学基金 (NSFC)青年基金项目, 2013-2015.</li>
         <li>项目参与人. 关键词抽取与社会标签推荐相结合的中文文本主题词自动标注方法研究. 国家自然科学基金 (NSFC)面上项目, 2012-2015.</li>
@@ -304,10 +328,12 @@ lang: 'zh'
         <li>2008. 清华大学一等奖学金 (董氏东方奖学金).</li>
         <li>2006. 清华大学优良毕业生.</li>
       </ul>
+
       <h1 id="学术服务">学术服务</h1>
       <ul>
         <li>中国中文信息学会青年工作委员会主任, 计算语言学专委会委员, 语言与知识计算专委会委员, 社会媒体处理专委会秘书长</li>
       </ul>
+      </div>
     </section>
   </div>
   <script>
@@ -320,6 +346,10 @@ lang: 'zh'
         };
       },
       methods: {
+        getSrt(str){
+          const wrappedStr = str.split('').map(char => `<span>${char}</span>`).join('');
+          return wrappedStr;
+        }
       },
       mounted() {
         console.log('666')
